@@ -9,11 +9,11 @@ def main():
 
     if operator == "+":
         result = add(data_1, data_2)
-    if operator == "*":
+    elif operator == "*":
         result = mul(data_1, data_2)
-    if operator == "/":
+    elif operator == "/":
         result = div(data_1, data_2)
-        
+
 
     print("{} {} {} = {} ".format(data_1, operator, data_2, result))
 
